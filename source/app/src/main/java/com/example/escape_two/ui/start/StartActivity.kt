@@ -1,8 +1,10 @@
-package com.example.escape_two
+package com.example.escape_two.ui.start
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.escape_two.R
+import com.example.escape_two.ui.main.MainActivity
 import kotlinx.android.synthetic.main.activity_start.*
 
 class StartActivity: AppCompatActivity() {

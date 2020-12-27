@@ -1,9 +1,11 @@
-package com.example.escape_two
+package com.example.escape_two.ui.about
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import com.example.escape_two.R
+import com.example.escape_two.ui.start.StartActivity
 import kotlinx.android.synthetic.main.activity_about.*
 
 class AboutActivity: AppCompatActivity() {
