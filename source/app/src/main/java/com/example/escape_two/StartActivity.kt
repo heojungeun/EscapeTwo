@@ -1,5 +1,6 @@
 package com.example.escape_two
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_start.*
@@ -15,12 +16,17 @@ class StartActivity: AppCompatActivity() {
 
     private fun onButtonEvent(){
 
-        openbtn.setOnClickListener {
+        btn_0_open.setOnClickListener {
             // go main activity
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
         }
 
-        aboutbtn.setOnClickListener {
+        btn_0_about.setOnClickListener {
             // go about activity
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
         }
     }
 }
