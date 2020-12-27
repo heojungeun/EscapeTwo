@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02"
+        android:textSize="150dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="70dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/openbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0.Open"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toTopOf="@id/aboutbtn"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button
+        android:id="@+id/aboutbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.About"
+        android:textSize="30dp"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:background="@android:color/transparent"
+        style="?android:attr/borderlessButtonStyle"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
