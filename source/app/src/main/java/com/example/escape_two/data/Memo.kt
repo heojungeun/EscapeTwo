@@ -9,6 +9,9 @@ data class Memo (
     @PrimaryKey(autoGenerate = true)
     var id: Long?,
 
+    @ColumnInfo(name = "mtitle")
+    var title: String,
+
     @ColumnInfo(name = "mtime")
     var time: String,
 

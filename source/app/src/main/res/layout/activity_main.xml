@@ -48,12 +48,12 @@
         android:layout_height="wrap_content"
         android:padding="10dp">
 
-        <Button
-            android:id="@+id/btn_1_delete"
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_gravity="center_vertical"
-            android:background="@drawable/ic_delete_black_24dp" />
+<!--        <Button-->
+<!--            android:id="@+id/btn_1_delete"-->
+<!--            android:layout_width="30dp"-->
+<!--            android:layout_height="30dp"-->
+<!--            android:layout_gravity="center_vertical"-->
+<!--            android:background="@drawable/ic_delete_black_24dp" />-->
 
         <Button
             android:id="@+id/btn_1_add"
