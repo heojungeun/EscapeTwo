@@ -24,11 +24,14 @@ android {
         }
     }
 
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 dependencies {
 
-    def room_version = "2.2.3"
+    def room_version = "2.2.6"
     def lifecycle_version = "2.2.0"
     def recycler_view = "1.1.0"
 
@@ -40,6 +43,9 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    implementation 'androidx.activity:activity-ktx:1.1.0'
+    implementation 'androidx.fragment:fragment-ktx:1.2.5'
 
     //Room library
     implementation "androidx.room:room-runtime:$room_version"
