@@ -1,14 +1,14 @@
-package com.example.escape_two.ui.page_View1
+package com.example.escape_two.ui.page_Edit
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.escape_two.R
 
-class ItemViewActivity: AppCompatActivity() {
+class ItemEditActivity: AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_itemview)
+        setContentView(R.layout.activity_itemedit)
     }
 
     companion object {
@@ -17,5 +17,6 @@ class ItemViewActivity: AppCompatActivity() {
         const val EXTRA_MEMO_TIME = "EXTRA_MEMO_TIME"
         const val EXTRA_MEMO_CTNT = "EXTRA_MEMO_CTNT"
         const val EXTRA_MEMO_PHOTO = "EXTRA_MEMO_PHOTO"
+        const val EXTRA_MODE = "EXTRA_MODE"
     }
 }

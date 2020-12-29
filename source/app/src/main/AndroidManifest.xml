@@ -19,6 +19,7 @@
         <activity android:name=".ui.main.MainActivity"/>
         <activity android:name=".ui.about.AboutActivity"/>
         <activity android:name=".ui.page_View1.ItemViewActivity"/>
+        <activity android:name=".ui.page_Edit.ItemEditActivity"/>
     </application>
 
 </manifest>
