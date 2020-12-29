@@ -21,6 +21,10 @@ class MemoRepository(application: Application): CoroutineScope {
         return allmemo
     }
 
+    fun get(id: Long): LiveData<Memo>{
+        return memoDao.get(id)
+    }
+
     fun insert(memo: Memo){
         launch { insertBG(memo) }
     }

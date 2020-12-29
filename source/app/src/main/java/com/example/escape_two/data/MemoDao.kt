@@ -12,6 +12,9 @@ interface MemoDao {
     @Query("select * from memo")
     fun getAll(): LiveData<List<Memo>>
 
+    @Query("select * from memo where id= :id")
+    fun get(id: Long): LiveData<Memo>
+
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     fun insert(memo : Memo)
 
